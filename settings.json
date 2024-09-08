@@ -63,5 +63,6 @@
         "gleam": "gleam run -m $fileNameWithoutExt"
     },
     "code-runner.ignoreSelection": true,
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)"
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme"
 }

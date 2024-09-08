@@ -40,6 +40,8 @@
 #### Tema
 
 + Para utilizar o tema desenvolvido por Otávio Miranda (tema baseado no Dracula), devemos ir em extensões e procurar por `omthemes` e instalar o tema `Om Theme (A Darker Dracula Theme)`, em seguida ser perguntado como utilizar o itálico, recomenda-se utilizar a opção padrão para o itálico `OM Theme (Default Dracula Italic)`.
+
++ Para uma boa exibição da estruturas de pastas no VSCode podemos utilizar o tema padrão do Agular Material, pesquisando por `material icon theme` nas extenões e instalando-a. Após a instalação será exibido o tema que está sendo usado no momento (Seti Visual Studio Code), devemos selecionar o `Material Icon Theme` para modificar.
 ---
 
 </details>
