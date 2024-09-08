@@ -14,6 +14,10 @@
 
 + Configurações em arquivo no VSCode aparecem quando cilcamos no ícone. ![Settings](imagens/settings.png)
  O arquivo é o `settings.json`
+
+ + O arquivo `settings.json` utilizado estará na raiz deste repositório.
+
+ + Para prepara o interpretador do Python pra executar em possíveis versões de ambientes virtuais que possam estar sendo utilizadas posteriormente, devemos habilitar a opção `python.defaultInterpreterPath` para `true`, para usar a versão do interpretador do Python como padrão.
 ---
 
 + Por padrão o VSCode utiliza `compact folders` que exibe a estrutura de pastas com seu caminho completo. Para desativar essa opção clicamos em `configurações -> settings` e procuramos por compact foldes e então desabilitamos.
