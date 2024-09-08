@@ -28,7 +28,11 @@
 > Extensão para Python `Python`  
 > Extensão para executar diversas linguagens `Code Runner`
 
-+ Para executar a xtensão no terminal e não na output do VSCode, devemos setar a opção `code-runner.runInTerminal` para `true`, por padrão ela vem setada como false.
++ Para executar a xtensão no terminal e não na output do VSCode, devemos setar a opção `code-runner.runInTerminal` para `true`, por padrão ela vem setada como false.  
+
++ Para limpar o terminal após executar qualquer comando devemos setar a opção `code-runner.clearPreviousOutput` para `true`, por padrão ela vem setada como false.
+    - Por veze, apenas setar o comando `code-runner.clearPreviousOutput` para true não resolve completamente o problema com alimpeza do terminal, então devemos configurar os comandos a serem utilizados na configuração `code-runner.executorMap` e setar na chave `python` os comandos `cls && python -u` (para o caso do CMD do Windows), `cls ; python -u` (para o caso do PowerShell do Windows) ou `clear && python -u` (para o caso do Linux).  
+
 ---
 
 </details>
