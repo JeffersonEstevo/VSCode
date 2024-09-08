@@ -17,10 +17,20 @@
 ---
 
 + Por padrão o VSCode utiliza `compact folders` que exibe a estrutura de pastas com seu caminho completo. Para desativar essa opção clicamos em `configurações -> settings` e procuramos por compact foldes e então desabilitamos.
+---
 
 + Atalhos
 > Copy Line Down `Shift`+`Alt`+`DownArrow`  
 > Copy Line Up `Shift`+`Alt`+`UpArrow`
+
++ Para executar a xtensão no terminal e não na output do VSCode, devemos setar a opção `code-runner.runbInTerminal` para `true`, por padrão ela vem setada como false.
+---
+
++ Extensões
+> Extensão para Python `Python`  
+> Extensão para executar diversas linguagens `Code Runner`
+---
+
 </details>
 
 <details><summary><b>JavaScript</b></summary>
