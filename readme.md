@@ -33,6 +33,8 @@
 + Para limpar o terminal após executar qualquer comando devemos setar a opção `code-runner.clearPreviousOutput` para `true`, por padrão ela vem setada como false.
     - Por veze, apenas setar o comando `code-runner.clearPreviousOutput` para true não resolve completamente o problema com alimpeza do terminal, então devemos configurar os comandos a serem utilizados na configuração `code-runner.executorMap` e setar na chave `python` os comandos `cls && python -u` (para o caso do CMD do Windows), `cls ; python -u` (para o caso do PowerShell do Windows) ou `clear && python -u` (para o caso do Linux).  
 
++ Por padrão, o Code Runner executa apenas parte selecionada no arquivo fonte do VSCdode, para desabilitar essa opção setamos a propriedade `codecode-runner.ignoreSelection` para `true`, por padrão essa opção vem setada como false; 
+
 ---
 
 </details>
