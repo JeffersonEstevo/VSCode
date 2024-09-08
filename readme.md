@@ -19,12 +19,12 @@
 + Por padrão o VSCode utiliza `compact folders` que exibe a estrutura de pastas com seu caminho completo. Para desativar essa opção clicamos em `configurações -> settings` e procuramos por compact foldes e então desabilitamos.
 ---
 
-+ #### Atalhos
+#### Atalhos
 > Copy Line Down `Shift`+`Alt`+`DownArrow`  
 > Copy Line Up `Shift`+`Alt`+`UpArrow`
 ---
 
-+ #### Extensões
+#### Extensões
 > Extensão para Python `Python`  
 > Extensão para executar diversas linguagens `Code Runner`
 
@@ -35,6 +35,11 @@
 
 + Por padrão, o Code Runner executa apenas parte selecionada no arquivo fonte do VSCdode, para desabilitar essa opção setamos a propriedade `codecode-runner.ignoreSelection` para `true`, por padrão essa opção vem setada como false; 
 
+---
+
+#### Tema
+
++ Para utilizar o tema desenvolvido por Otávio Miranda (tema baseado no Dracula), devemos ir em extensões e procurar por `omthemes` e instalar o tema `Om Theme (A Darker Dracula Theme)`, em seguida ser perguntado como utilizar o itálico, recomenda-se utilizar a opção padrão para o itálico `OM Theme (Default Dracula Italic)`.
 ---
 
 </details>
